@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
 /* Navbar css */
 .navbar{
     background-color: #FFA835;
@@ -11,6 +14,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    width: 100%;
 }
 
 #phoneNo{
@@ -155,4 +159,138 @@
     font-size: 17;
 }
 
+.body-post-exam{
+    background-color: #FDFDFD;
+    width: 102%;
+    background-image: url(../images/work.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position:relative ;
+}
 
+.body-post-exam{
+    font-family: Arial, sans-serif;
+}
+
+.body-post-exam > .text{
+   position: absolute;
+   top: 200px;
+   left: 120px;
+   width: 600px;
+}
+
+.body-post-exam > .text > h1:nth-last-child(3){
+    margin-top: 50px;
+}
+
+.body-post-exam > .text > h1:nth-last-child(2){
+    color: orange;
+    margin-top: 40px;
+}
+
+.body-post-exam > .text > button{
+    background-color: #00AA89;
+    color: white;
+    width: 150px;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20PX;
+    margin-top: 30PX;
+}
+
+.program-structure{
+    margin: 70px 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.programs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.program{
+    position: relative;
+}
+
+.program-text p{
+    font-size: 13px; 
+    color: gray;
+}
+
+.watermark{
+    font-size: 120px;
+    color: gray;
+    opacity: 0.3;
+}
+
+.program-img3{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.program-img1{
+    position: absolute;
+    top: 40px;
+    left:70px;
+}
+
+.program-img2{
+    position: absolute;
+    top: 25px;
+    left:80px;
+}
+
+.program-text p{
+    margin-top: 15px;
+}
+
+.program-text h4{
+    color: rgb(75, 72, 72);
+}
+
+.what-we-do{
+    display: flex;
+}
+.what-we-do-text{
+    height: 367px;
+    width:510px;
+    background-color: rgb(246, 245, 254);
+    padding: 100px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.what-we-do-text > h2{
+    color: rgb(56, 54, 54);
+    margin-top: 20px;
+}
+
+.what-we-do-text > p{
+    font-size: 14px;
+    color: gray;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.last-block{
+    margin-top: 25px;
+    font-size: 14px;
+    color: gray;
+    line-height: 25px;
+    position: relative;
+}
+
+.last-block::before{
+    content: '';
+    height: 100px;
+    width: 2.5px;
+    background-color: #FB7C35;
+    position: absolute;
+    left: -18px;
+    top: 10px;
+}

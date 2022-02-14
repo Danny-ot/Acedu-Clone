@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar css */
+.navbar{
+    background-color: #FFA835;
+    padding: 12px 15px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#phoneNo{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 17px;
+    color: #B54402;
+    margin-left: 30px;
+    position: relative;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+#phoneNo::after{
+    width: 35px;
+    content: '';
+    background: #B54402;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    margin-top: 8px;
+}
+#phoneNo span{
+    margin-left: 50px;
+}
+
+.logo{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-items{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+.nav-items li{
+    display: inline-block;
+    list-style: none;
+    margin-right:20px ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: rgb(44, 37, 37);
+    font-family:Arial;
+    font-size: 14px;
+   
+}
+
+.nav-items li a button{
+    width: 130px;
+    padding: 10px 0px;
+    color: white;
+    background: #523EE8;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-items li:last-child a{
+    color: white;
+}
+
+.nav-items li:last-child a:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+.header{
+    background-color: #FFA835;
+    height: 113vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 15px;
+}
+
+.desc{
+    color: #DE8100;
+    font-size: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+    transform: translateY(30px);
+}
+
+.header-img img{
+    position: absolute;
+    left: 23%;
+    top: 0;
+    width: 650px;
+}
+
+.brave{
+    font-family:inherit;
+    width: 378px;
+    font-family:Arial, sans-serif;
+    font-size: 21px; 
+    position: relative; 
+    top: 150px;
+}
+
+
+.brave::before{
+    content: '';
+    width: 40px;
+    position: absolute;
+    background: rgb(214, 9, 3);
+    height: 7px;
+    bottom: 160px;
+}
+
+.dare-for-more{
+    font-family:Arial, sans-serif;
+    width: 250px;
+    position: absolute;
+    right: 55px;
+    bottom: 280px;
+}
+
+.dare-for-more h1{
+    color: #523ee8;
+}
+
+.dare-for-more p{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height:25px;
+    color: #4C1B00;
+}
+
+.dare-for-more div{
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgb(214, 9, 3);
+    font-weight: bold;
+}
+
+.dare-for-more div span{
+    margin-left: 14px;
+    font-size: 17;
+}
+
+
